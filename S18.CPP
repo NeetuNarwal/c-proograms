@@ -42,9 +42,9 @@ class student
   cout<<"\nTOTAL MARKS="<<tot;
   cout<<"\nPercentage="<<per<<"%";
  }
-int main()
+void main()
 {
- student s[2];
+ student s[5];
  int n;
   cout<<"\nEnter the number of students:";
   cin>>n;
@@ -60,5 +60,5 @@ int main()
     s[i].output();
    }
    getch();
-   return 0;
+  
 }
