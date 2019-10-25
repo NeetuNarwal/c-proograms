@@ -7,6 +7,8 @@ class student
  public:
  student():roll(0)
  {}
+ student(int n):roll(n)
+ {}
  void input()
  {
   cout<<"\nEnter the roll number:";
